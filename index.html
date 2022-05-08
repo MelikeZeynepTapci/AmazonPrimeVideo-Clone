@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prime Video</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div style="background-image: linear-gradient(180deg, rgb(27,37,48),rgb(25,35,45));">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand ml-2" href="https://www.primevideo.com">
+                <img src="images/logo.png" alt="" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse na" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link ml-2 mt-2 homepage-link" href="">
+                            Anasayfa <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link ml-2" href="#">TV Dizileri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-2 mt-2" href="#">Filmler</a>
+                    </li>
+                    <li class="nav-item dropdown mt-2">
+                        <a class="nav-link dropdown-toggle ml-2" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Kategoriler
+                        </a>
+                        <div class="dropdown-menu" style="background-color: #1b2530; width: 750px;"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <a class="dropdown-item"
+                                            style="color:white; font-family: 'AmazonEmber_Lt', sans-serif;" href="">En
+                                            iyi kategoriler</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <a class="dropdown-item"
+                                            style="color:white; font-family: 'AmazonEmber_Lt', sans-serif; "
+                                            href="#">Türler</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="nav-item mt-2" style="margin-left:500px;">
+                        <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback" style="background-color: #1b2530;"> </span>
+                            <input type="text" class="form-control" placeholder="Ara">
+                        </div>
+                    </li>
+                    <li class="nav-item mt-3 ml-3">
+                        <img src="images/user.png" height="30">
+                    </li>
+                    <li>
+
+                    </li>
+                    <li class="mt-4 ml-3">
+                        <a
+                            href="https://www.amazon.com/ap/signin?clientContext=257-5342714-8619765&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.primevideo.com%2Fauth%2Freturn%2Fref%3Dav_auth_ap%3Flocation%3D%2Fsettings%3Fref_%253Ddv_auth_ret&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&accountStatusPolicy=P1&openid.assoc_handle=amzn_prime_video_desktop_us&openid.mode=checkid_setup&language=tr_TR&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+                            <h6 style="font-family:'AmazonEmber_Lt',sans-serif; color:lightgrey;">Melike</h6>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="carousel-div">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/carousel/maisel.jpeg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/carousel/undone.jpeg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/carousel/wilds.jpeg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/carousel/alltheold.jpeg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/carousel/bosch.jpeg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/carousel/absentia.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/carousel/voyeurs.jpeg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div style="background-color:rgb(17, 17, 17);" class="pt-5 pb-5">
+        <div style="margin-left: 150px;">
+            <h5 class="titles">Amazon Orijinal ve Özel İçerikler</h5>
+            <a class="seemore"
+                href="https://www.primevideo.com/search/ref=atv_hm_hom_c_q0o7dl_2_smr?queryToken=eyJ0eXBlIjoicXVlcnkiLCJuYXYiOnRydWUsInBpIjoiZGVmYXVsdCIsInNlYyI6ImNlbnRlciIsInN0eXBlIjoic2VhcmNoIiwicXJ5IjoiaW5kZXg9ZXUtYW1hem9uLXZpZGVvLWV1cm8mYWR1bHQtcHJvZHVjdD0wJmJxPShhbmQgc29ydDonZmVhdHVyZWQtcmFuaycgKGFuZCBhdl9sYW5ndWFnZV9zcG9rZW46J0ZSOmZyLWZyJyAob3IgYXZfdGVycml0b3J5X2V4Y2x1c2l2ZTonRlI6Zmlyc3RydW4nIGF2X3RlcnJpdG9yeV9leGNsdXNpdmU6J0ZSOm9yaWdpbmFsJykgKG5vdCAob3IgYXZfcHJpbWFyeV9nZW5yZTonYXZfZ2VucmVfa2lkcycgYXZfcHJpbWFyeV9nZW5yZTonYXZfc3ViZ2VucmVfa2lkc19mYW1pbHknIGF2X3ByaW1hcnlfZ2VucmU6J2F2X2dlbnJlX2FuaW1lJykpIChub3QgKG9yIGF2X3NlY29uZGFyeV9nZW5yZTonYXZfZ2VucmVfa2lkcycgYXZfc2Vjb25kYXJ5X2dlbnJlOidhdl9zdWJnZW5yZV9raWRzX2ZhbWlseScpKSkpJmF2X2J5X3R5cGVfaW5fdGVycml0b3J5PVRSOnN2b2Q6cHJpbWUmc2VhcmNoLWFsaWFzPWluc3RhbnQtdmlkZW8mcXMtYXZfcmVxdWVzdF90eXBlPTQmcXMtaXMtcHJpbWUtY3VzdG9tZXI9MiIsInJ0IjoiUTBvN0RMc21yIiwidHh0IjoiQW1hem9uIE9yaWppbmFsIHZlIMOWemVsIMSww6dlcmlrbGVyIiwib2Zmc2V0IjowLCJucHNpIjowLCJvcmVxIjoiYWI5YmFhZTYtNjAwYi00NjcwLWI0NjQtN2JkNzU4OTE4MWI3OjE2NTE5MjIyMTMwMDAiLCJzdHJpZCI6IjE6MTI2SkpWRVc1T1NaRU0jI01aUVdHWkxVTVZTRUdZTFNONTJYR1pMTSIsIm9yZXFrIjoiMTJ5OHhUelFqalBwZExhYzVvdU5PVU9jKzFzcElKSVV6Tm1GaHVwUERIVT0iLCJvcmVxa3YiOjF9&pageId=default&queryPageType=browse&ie=UTF8">Daha
+                Fazlasını Gör</a>
+        </div>
+
+
+        <div id="carouselExampleControls" class="carousel slide mt-3" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 image">
+                                <img src="images/originals /good_omens.jpg" height="150">
+
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/originals /zaman_carki.webp" height="150">
+
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/originals /wilds.jpg" height="150">
+
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/originals /jack_ryan.jpg" height="150">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 image">
+                                <img src="images/originals /outer_range.webp" height="150">
+
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/originals /sirtimdaki_bicaklar.jpeg" height="150">
+
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/originals /undone.jpg" height="150">
+
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/originals //wolf_like_me.jpeg" height="150">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev carousel-control" href="#carouselExampleControls" role="button"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+
+    <div style="background-color:rgb(17, 17, 17);" class="pt-3 pb-5">
+        <div style="margin-left: 150px;">
+            <h5 class="titles">Önerilen Filmler</h5>
+        </div>
+
+        <div id="carouselExampleControls2" class="carousel slide mt-3" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/029f119d6da1f5266cb58ea5db05cab200512c60b09b6015c90d685762b425e4._UR1920,1080_RI_SX712_FMwebp_.webp"
+                                    height="150">
+
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/1917.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/19fe2c996f95c7d34472eebd8c12969613e68076877d6658e1d8e5c821f69f8d._UR1920,1080_RI_SX712_FMwebp_.webp"
+                                    height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/a_time_to_kill.webp" height="150">
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/blackbox.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/cad11c3edff59af84d11ae4244a7776a742883dba7fd7a7d3da491223c44e6a3._UR1920,1080_RI_SX712_FMwebp_.webp"
+                                    height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/cinderella.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/daredevil.webp" height="150">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/encounter.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/girl_next_door.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/gladiator.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/intime.webp" height="150">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/negotiator.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/oblivion.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/pitchperfect.webp" height="150">
+                            </div>
+                            <div class="col-lg-3 image">
+                                <img src="images/recommends/tenderbar.webp" height="150">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="footer" style="text-align: center;">
+        <img class="image" src="images/logo.png" height="70">
+        <br>
+        <a class="seemore" href="https://www.primevideo.com/ww-av-legal-home/ref=atv_ftr_ter">Koşullar ve Gizlilik
+            Bildirimi</a>
+        <a href="https://www.primevideo.com/contactus/ref=atv_ftr_cu" class="seemore ml-3"> Geri bildirimde bulunun</a>
+        <a href="https://www.primevideo.com/help/ref=atv_ftr_hp" class="seemore ml-3">Yardım</a>
+        <a href="https://www.primevideo.com/help/ref=atv_hp_nd_cnt?nodeId=GZVH7DTWNBGPRPDS" class="seemore ml-3">Çerez
+            Bildirimi</a>
+        <h6 class="grey-text ml-3">© 1996-2022, Amazon.com, Inc. veya bağlı kuruluşları</h6>
+    </div>
+
+
+
+    <script src="" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

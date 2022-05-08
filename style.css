@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Amazon-Ember-Medium;
+    src: url(fonts/Amazon-Ember-Medium.ttf);
+}
+
+@font-face {
+    font-family: AmazonEmber_Bd;
+    src: url(fonts/AmazonEmber_Bd.ttf);
+}
+
+@font-face {
+    font-family: AmazonEmber_Lt;
+    src: url(fonts/AmazonEmber_Lt.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-custom {
+    background-color: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, .85));
+    height: 56px;
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "AmazonEmber_Lt", sans-serif;
+    color: rgba(242, 244, 246, 0.768) !important;
+}
+
+.homepage-link {
+    font-family: "Amazon-Ember-Medium", sans-serif;
+    color: white !important;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.titles {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Amazon-Ember-Medium", sans-serif;
+    color: white;
+}
+
+.seemore:link {
+    display: inline;
+    font-size: 15px;
+    font-family: "AmazonEmber_Lt", sans-serif;
+    color: lightskyblue !important;
+    text-decoration: none;
+
+}
+
+.image {
+    text-shadow: 2px 2px 5px black;
+}
+
+.carousel-control {
+    margin-left: -50px !important;
+    padding-right: -50px !important;
+    font-size: 5px;
+}
+
+.grey-text {
+    display: inline;
+    color: grey;
+    font-family: "AmazonEmber_Lt", sans-serif;
+    font-size: 15px;
+
+}
+
+.footer {
+    background-color: rgb(17, 17, 17);
+    height: 120px;
+}
+
+.dropdown-menu>a:hover {
+    background-image: none;
+    background-color: blue;
+}
+
+.dropdown-item:hover {
+    background-image: none;
+    background-color: blue;
+}
